@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Jacobs_Kevin.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Jacobs_Kevin"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="button" Content="Button" Margin="560,54,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBox x:Name="inputText" HorizontalAlignment="Left" Margin="28,54,0,0" PlaceholderText="Enter text here" TextWrapping="Wrap" VerticalAlignment="Top" Width="445"/>
+        <StackPanel x:Name="ImagePanel" Margin="44,127,1549,50">
+            
+        </StackPanel>
+        <StackPanel x:Name="NamePanel" Margin="376,127,821,50"/>
+        <StackPanel x:Name="CategoryPanel" Margin="1104,127,442,50"/>
+        <StackPanel x:Name="PricePanel" Margin="1504,127,220,50"/>
+        <StackPanel x:Name="ReviewsPanel" Margin="1762,127,59,50"/>
+    </Grid>
+</Page>
